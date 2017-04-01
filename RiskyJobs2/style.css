@@ -1,0 +1,120 @@
+tr.heading {
+  color: #882E2C;
+}
+
+tr.results {
+  font-size: smaller;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color: #882E2C;
+}
+
+a:hover {
+  background-color: #E2F345;
+}
+
+a:visited {
+  color: #882E2C;
+}
+
+a:active {
+  color: #000000;
+}
+
+#banner {
+	
+  }
+  
+/*  #main {
+	   margin-left: 200px;
+	   margin-top: 100px;
+	  
+  }*/
+  
+  
+  #wrapper {
+	margin-left:auto;
+    margin-right:auto;
+	width: 960px;
+	 background-color: #FFF; 
+    background-position: top left;
+	background-repeat: no-repeat;
+	background-image: url(images/WrpBgraund.JPG);
+  background-repeat:repeat-y;
+  padding-bottom: 500px;
+  border: outset 2px black;
+  
+	}
+	
+	#mainPHP {
+	   margin-left: 50px;
+	   margin-top: 100px;
+	  
+  }
+	#wrapperPHP {
+	margin-left:auto;
+    margin-right:auto;
+	width: 860px;
+	 background-color: #FFF; 
+    background-position: top left;
+	background-repeat: no-repeat;
+	background-image: url(images/WrpBgraund.JPG);
+  background-repeat:repeat-y;
+  padding-bottom: 50px;
+  border: outset 2px black;
+	}
+	
+	#registration{
+		float: right;
+		width: 100px;
+		margin-right: 0px;
+		margin-top: -140px;
+	}
+	
+	#registration a:link  {
+		color: #1B60E0;
+		border-bottom: solid 1px;
+		
+	}
+	#registration a:hover {
+		background-color: #D5E0F5;
+			}		
+			
+			#registration a:visited {
+		color: #2252AB;
+				}				
+	
+	input[type="text"] {
+	margin-bottom: 10px;
+	}
+	
+	body {
+  background-image: url(images/bg_page.png);
+  background-repeat:repeat-x;
+	background-color: #FFF;
+	margin-top: 0px;
+}
+#photos {
+  overflow: hidden;
+	width: 760px;
+}
+
+#photos_inner {
+  height: 100px;
+  width: 1500px;
+  overflow: hidden;
+  position: relative;
+}
+
+#photos_inner img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
